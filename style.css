@@ -1,0 +1,319 @@
+/*hlavni css*/
+body {
+    margin:0 0px; 
+    padding:0px;
+    text-align:center; 
+    background: #3f3f3f;
+    font-family: Arial, sans-serif;
+}	       
+#hlavni {
+    width:1000px;
+    margin:0 auto;
+    text-align:left
+}
+.chyba {
+    color:#820000;
+    font-weight: bold;
+    font-size:0.9em;
+    text-align: center}
+.ok {
+    color:white;
+    font-weight: bold;
+    text-align: center
+}
+h1,h2,h3 {
+    text-align: center;
+    color:white
+}
+.odkaz_prihlas {
+    color:white
+}
+.odkaz_prihlas:hover {
+    text-decoration: none;
+    color:black;
+    text-shadow: 1px 1px 5px white
+}
+
+/*hlavicka*/
+#nav   {
+    height: 230px;
+    background-image: url(Images/header.png); 
+    background-repeat: no-repeat;
+    box-shadow: black 0 0 10px
+}
+#nav .logo {
+    float:left;
+}
+#nav h1 {
+    font-size: 3em; 
+    text-align:center;
+    text-shadow: 0px 0px 5px red;
+    color:white
+}
+#nav h2 {
+    font-size: 2em;
+    color:whitesmoke; 
+    text-shadow: 0px 0px 5px red;
+}
+
+/*menu*/
+#menu  {
+    float:left;
+    width:280px;
+    background:rgba(255,255,255,0.2);
+    margin-top:10px;
+}
+.menu_div ul
+{
+    padding:0px;
+    margin:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color:#FFF;
+    list-style:none;
+    text-indent:15px;
+}
+.menu_div ul li
+{
+    background:#3f3f3f;
+    line-height:28px;
+    border-bottom:1px solid #333;
+}
+.menu_div ul li a
+{
+    text-decoration:none;
+    color:#FFF;
+    display:block;
+}
+.menu_div ul li a:hover
+{
+    background:#d40203;
+}
+.menu_div ul li#active
+{
+    background:#d40203;
+}
+
+/*obsah*/
+#obsah {
+    float:right;
+    width:690px;
+    margin-top:10px;
+    padding:10px;
+    background:rgba(255,255,255,0.2);
+    color:#dadada;
+    font-size: 1.1em
+}
+#obsah a {
+    color:whitesmoke
+}  
+#obsah h1 {
+    font-family: serif;
+    font-size: 3em; 
+    text-align:center;
+    text-shadow: 0px 0px 0px black
+}
+#obsah h2 {
+    font-size: 2em;
+    color:white; 
+    text-shadow: 2px 2px 10px black; 
+    letter-spacing: 8px
+}
+#obsah img{
+    float: right;
+    margin:10px
+}
+#obsah p {
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: justify;
+}
+
+.novinky {
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    background: #404040;
+    border-radius: 10px;
+    box-shadow: #202020 2px 2px 7px;
+}
+/*reklama*/
+#reklamaObsah {
+    float:right;
+    width:690px;
+    margin-top:10px;
+    text-align: center    
+}
+
+/*tabulkaObsah*/
+#tabulkaObsah {
+    color:white
+}
+#tabulkaObsah td:hover {
+    background: gray;
+}
+#tabulkaObsah td {
+    padding:3px;
+    border: 2px solid whitesmoke; 
+    border-spacing: 3px 6px;
+    color: white
+}
+#tabulkaObsah th {
+    padding:7px;
+}
+
+/*formulare*/
+#formular .input {
+    -moz-box-shadow:inset 2px 2px 5px #888;
+    -webkit-box-shadow: inset 2px 2px 5px #888;
+    box-shadow:inset 2px 2px 5px #888;
+    border:none;
+    height:25px;
+    padding-left: 5px;
+    width:200px
+}
+#formular .textarea {
+    box-shadow: 1px 1px 2px 1px gray inset;
+    border:2px solid gray;
+    padding-left: 5px;
+    width:200px;
+    height:100px
+}
+#formular ul {
+    margin-top:0px!important
+}
+#formular a {
+    font-weight: normal;
+    font-size:0.8em
+}
+#formular .text {
+    color:white;
+    text-align: right
+}
+#formular .odkaz_prihlas {
+    font-size: 1.1em
+}
+/*kosik slev*/
+#kosik {
+    width:100%;
+    text-align: center;
+    color:white
+}
+#kosik .polozka {
+    text-align: left
+}
+#kosik img{
+    float:right;
+    padding:5px
+}
+#kosik .polozka {
+    font-weight: bold;
+    margin-left: 5px
+}
+#kosik .polozka span {
+    font-weight: normal!important;
+    font-style: italic!important;
+    padding:5px
+}
+.kosikAkce strong {
+    font-style: italic
+}
+#kosik td:hover {
+    background: gray;
+}
+#kosik td {
+    padding:3px;
+    border: 2px solid whitesmoke;
+    border-spacing: 3px 6px;
+    color: white
+}
+#kosik th {
+    padding:7px;
+}
+#ovladaiKosiku {
+    margin-top: 30px
+}
+
+/*uzivatel menu*/
+#uzivatel_menu {
+    margin-top: 20px;
+    margin-left: 5px
+}
+#uzivatel_menu a {
+    font-size:1em
+}
+#uzivatel_menu li {
+    display:block
+}
+
+/*objednavky slev*/
+#slevy {
+    width: 300px;
+    display: inline-block;
+    border:1px solid black;
+    padding:10px;
+    margin:5px;
+    background: #555555;
+    box-shadow:white 0 0 5px
+}
+#slevy .nazev {
+    font-weight: bold;
+    color:whitesmoke
+}
+#slevy .popis {
+    font-size: 0.9em
+}
+#slevy .polozka {
+    font-weight: bold
+}
+#slevy .puvodniCena {
+    font-weight: normal;
+    text-decoration: line-through
+}
+#slevy input {
+    width: 30px;
+    border:1px solid gray;
+}
+#slevy div {
+    font-style: italic;
+    padding:5px
+}
+#slevy div a {
+    display: block;
+    margin: 10px;border:1px outset black;
+    text-align: center;
+    text-decoration: none
+}
+#slevy div a:active {
+    border:1px inset black
+}
+#slevy div a:hover {
+    text-shadow: 0 0 3px whitesmoke
+}
+
+#nastaveni_menu ul{
+    display: inline
+}
+#nastaveni_menu li{
+    display: inline;
+    padding:20px
+}
+#nastaveni_menu a:hover {
+    text-decoration: none
+}
+.zarovat_right {
+    text-align: right
+}
+
+
+/*
+#upozorneni {
+             height: 25px; 
+             box-shadow: black 0 0 10px;
+             background: white;
+             margin-top:10px;
+             color:red;
+             padding: 10px;
+             text-align:center
+}
+*/

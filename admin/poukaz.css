@@ -1,0 +1,27 @@
+#pozadi {
+    position: absolute;
+    top:0;
+    left: 0;
+    background: url("Image/darkovy_poukaz.png") no-repeat;
+    width: 567px;
+    height: 378px;
+}
+#procedura {
+    margin-top: 200px;
+    font-weight: bold;
+    font-family: arial;
+    
+}
+#cena {
+    width: 50px;
+    text-align: center;
+    font-size: 1em;
+}
+#svatek {
+    float: left;
+    margin-top: 200px;
+    margin-left: 20px;
+    width: 180px;
+    height: auto;
+}
+

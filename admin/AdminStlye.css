@@ -1,0 +1,70 @@
+* {font-family: "Arial",serif}
+body {margin:50px 0px; padding:0px;background:#cdcdcd;}
+#NeniPristup {font-size:1.5em;text-align:center;color:red}    
+.je_ok {color:blue;text-align: center}
+.chybova_hlaska {color: red; font-weight: bold;font-size: 0.8em;text-align: right}
+#obecna_hlaska {color: red; font-weight: bold;font-size: 0.9em;text-align: center}
+
+/*Header */
+#header {position:absolute;width:99%;top:8px;left:0.5%;height:250px;
+background: #d0e4f7; /* Old browsers */
+background: -moz-linear-gradient(top,  #d0e4f7 0%, #73b1e7 24%, #0a77d5 50%, #539fe1 79%, #87bcea 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d0e4f7), color-stop(24%,#73b1e7), color-stop(50%,#0a77d5), color-stop(79%,#539fe1), color-stop(100%,#87bcea)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#87bcea',GradientType=0 ); /* IE6-9 */;
+
+margin:0;color:black;z-index:0}
+#logo_spol {float: left;margin-left:15%;margin-top:150px;width:300px;height:200px;background: white url("../Images/logo.png") no-repeat center;box-shadow:black 0 0 5px;overflow: hidden}
+#autor {float: left;color: black;margin-top:0px}
+#header h1 {text-align: center;margin-top:30px;font-size: 2.5em}
+#header h2 {text-align:center;font-size:2em;}
+#makler_header {float: right;width: 300px;text-align: right;color:black;font-size: 1.1em;padding: 5px;}
+
+/*Menu pro administratora */
+#menu_uzivatel {position:absolute;top:240px;right:0.5%;margin:0;color:black;text-align:right}
+#menu_uzivatel li{display:inline-block;padding:5px}
+#menu_uzivatel a {display:inline-block;height: 30px;padding: 5px;color:black;font-size:1.1em;line-height: 30px}
+#menu_uzivatel a:hover {background:#0a77d5;color:white}
+
+/*Střed*/
+#stred {width:100%;margin:380px auto;}	  
+
+/*Texty*/
+#text {float:right;width:80%;padding-bottom: 100px;}    
+h2 {text-align: center;}
+
+/*prihlaseni*/
+.admin_prihlaseni {margin-top:20px;box-shadow:0 0 2px white;}
+#clanek_text {width:95%;height: 400px}
+
+/*Menu*/
+#menu {float:right;width:15%;}
+#menu li {list-style-type:square;padding:3px}
+#menu a {font-size:1.1em;color:black}
+#menu a:hover {color:#0a77d5;text-decoration:none}
+#kategorie {display:block;width:100%;height:30px;text-align:center;padding-top:20px;font-family:serif}
+
+/* srava tabulky */
+#sprava_tabulka {text-align:center}
+#sprava_tabulka td{border:1px solid black;padding:10px;}
+#sprava_tabulka a {color:black}
+#sprava_tabulka a:hover {color:#4a4646}
+.tlacitka_akce a{color:black;font-size: 0.9em;}
+.tlacitka_akce a:hover {color:blue}
+#sprava_tabulka select {width: 250px;border:1px solid black}
+.input_sprava {width: 250px;border:1px solid black}
+.dlouhy_text_edit {width: 250px;height:300px;border:1px solid black;}
+.vypis_dlouhy_text {background: transparent;border: none;height:50px}
+.nepruhedny_input {background: transparent;border: none}
+#odkaz_pridani {text-align: right;}
+#odkaz_pridani input{border:1px outset white ;color:black;cursor: pointer}
+#odkaz_pridani input:hover{border:1px inset white;}
+#loader {text-align: center}
+
+/*obsah*/
+.obsah_menu li {display: inline-block}
+.obsah_menu a, .obsah_menu button {display:inline-block;padding:25px;background:black;color:white;border: none;cursor: pointer}
+.obsah_menu a:hover, obsah_menu button:hover{background:#0a77d5}
